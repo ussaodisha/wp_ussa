@@ -1,0 +1,23 @@
+// Import Custom frontend style files
+@import "fonts";
+
+* {
+    font-family: $font-poppins;
+}
+
+@import "includes";
+@import "home";
+@import "about";
+@import "events";
+@import "gallery";
+@import "contact";
+
+// Responsive Media Css
+
+@import "medium";
+@import "small";
+
+
+
+
+

@@ -1,0 +1,554 @@
+.Home-page {
+    margin-top: 60px;
+  }
+  
+  .Home-page .carousel-inner .carousel-item {
+    height: 700px;
+    width: 100%;
+  }
+  
+  .Home-page .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Home-page .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    height: auto;
+    top: 10%;
+    right: 15%;
+    bottom: 0px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: start;
+  }
+  
+  .Home-page .carousel-inner .carousel-item .carousel-caption h1 {
+    font-weight: 600;
+  }
+  
+  .Home-page .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .Home-page .carousel-control-prev,
+  .Home-page .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    width: 8%;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: opacity .15s ease;
+    transition: opacity .15s ease;
+  }
+  
+  .Home-page .carousel-control-prev .control-icon,
+  .Home-page .carousel-control-next .control-icon {
+    height: 100px;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .carousel-control-prev .control-icon i,
+  .Home-page .carousel-control-next .control-icon i {
+    color: white;
+    z-index: 1;
+    font-size: 5em;
+    opacity: .5;
+  }
+  
+  .Home-page .carousel-control-prev .control-icon:hover i,
+  .Home-page .carousel-control-next .control-icon:hover i {
+    color: white;
+    opacity: 1;
+  }
+  
+  .Home-page .short-about {
+    height: auto;
+    width: 85%;
+    margin: 50px auto 0px auto;
+  }
+  
+  .Home-page .short-about .short-about-img {
+    height: 400px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .short-about .short-about-img img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Home-page .short-about .short-about-content {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .Home-page .short-about .short-about-content h1 {
+    font-weight: 600;
+  }
+  
+  .Home-page .short-about .short-about-content p {
+    font-size: 18px;
+    color: #57606f;
+  }
+  
+  .Home-page .short-about .view_more_button {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .Home-page .short-about .view_more_button .button {
+    height: 100%;
+    width: 130px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid orange;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: orange;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .Home-page .short-about .view_more_button .button:hover {
+    width: 160px;
+    border-color: #2ed573;
+    color: #2ed573;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-size: 16px;
+  }
+  
+  .Home-page .trust-area-of-intervension-section {
+    margin: 50px auto 50px auto;
+    width: 85%;
+    height: auto;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-section-heading {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px 0px 15px 0px;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-section-heading h2 {
+    font-weight: 600;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel {
+    height: auto;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 40px;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .image-area {
+    height: 250px;
+    width: 100%;
+    background-color: #ecf0f1;
+    overflow: hidden;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .image-area img {
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .image-area:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area {
+    height: auto;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area h5 {
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area .content-area-text {
+    text-align: justify;
+    height: 0px;
+    display: none;
+    overflow: hidden;
+    -webkit-transition: all 5s;
+    transition: all 5s;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area a {
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    margin: 10px auto 0px auto;
+    font-size: 14px;
+    outline: none;
+    color: #2ed573;
+    border: 2px solid #2ed573;
+    background-color: white;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top-right-radius: 0px;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area a:hover {
+    color: orange;
+    border-color: orange;
+    width: 130px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area.showContent {
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .Home-page .trust-area-of-intervension-section .trust-area-of-intervension-content .tai-content-panel .content-area.showContent .content-area-text {
+    height: auto;
+    display: block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  .Home-page .testimonial-section {
+    margin: 40px auto 0 auto;
+    width: 85%;
+    height: 200px;
+  }
+  
+  .Home-page .testimonial-section .testimonial-section-heading {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0 50px 0;
+  }
+  
+  .Home-page .testimonial-section .testimonial-section-heading h2 {
+    font-weight: 600;
+  }
+  
+  .Home-page .testimonial-section .carousel-inner .carousel-item {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .Home-page .testimonial-section .carousel-inner .carousel-item .testimonial-item-panel {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .testimonial-section .carousel-inner .carousel-item .testimonial-item-panel .testimonial-icon {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .Home-page .testimonial-section .carousel-inner .carousel-item .testimonial-item-panel .testimonial-icon img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Home-page .testimonial-section .carousel-inner .carousel-item .testimonial-item-panel .testimonial-content {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .Home-page .testimonial-section .carousel-inner .carousel-item .testimonial-item-panel .testimonial-details {
+    text-align: center;
+  }
+  
+  .Home-page .testimonial-section .carousel-control-prev,
+  .Home-page .testimonial-section .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    width: 10%;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: opacity .15s ease;
+    transition: opacity .15s ease;
+    background-color: white;
+  }
+  
+  .Home-page .testimonial-section .carousel-control-prev .control-icon,
+  .Home-page .testimonial-section .carousel-control-next .control-icon {
+    height: 100px;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .testimonial-section .carousel-control-prev .control-icon img,
+  .Home-page .testimonial-section .carousel-control-next .control-icon img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .Home-page .more-section {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .Home-page .bottom-background {
+    background-image: url("images/ivan-bandura-UIcxKsUwNjo-unsplash.jpg");
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  
+  .Home-page .bottom-background .join-us-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .bottom-background .join-us-panel .join-us-form {
+    width: 600px;
+    height: 60px;
+  }
+  
+  .Home-page .bottom-background .join-us-panel .join-us-form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .bottom-background .join-us-panel .join-us-form form .join-us-email {
+    height: 50px;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-right: 10px;
+  }
+  
+  .Home-page .bottom-background .join-us-panel .join-us-form form .join-btn-box {
+    height: 50px;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .Home-page .bottom-background .join-us-panel .join-us-form form .join-btn-box .join-us-btn {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  /*# sourceMappingURL=style.css.map */

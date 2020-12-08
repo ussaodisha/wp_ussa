@@ -1,0 +1,472 @@
+.About-page .about-background {
+    background-image: url("images/a.jpg");
+    background-color: white;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  
+  .About-page .about-background span {
+    height: auto;
+    width: 50%;
+    margin-top: 80px;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .About-page .about-content {
+    height: 400px;
+    width: 100%;
+    background-color: #f1f2f6;
+    position: relative;
+  }
+  
+  .About-page .about-content .about-content-layer {
+    position: absolute;
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -200px);
+            transform: translate(-50%, -200px);
+    background-color: #f1f2f6;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 50px 60px;
+    border-top-left-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .About-page .about-content .about-content-layer h1 {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .About-page .about-content .about-content-layer h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .About-page .about-content .about-content-layer p {
+    font-size: 18px;
+    color: #57606f;
+    letter-spacing: .1px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  
+  .About-page .primary-content {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .About-page .primary-content .vision-mission-panel {
+    margin-top: 30px;
+  }
+  
+  .About-page .primary-content .vision-mission-panel .vision-section {
+    height: auto;
+    width: 100%;
+    margin: 30px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .About-page .primary-content .vision-mission-panel .vision-section .vam-panel {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .About-page .primary-content .vision-mission-panel .vision-section .vam-panel .vam-panel-text {
+    width: auto;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 10px 20px;
+  }
+  
+  .About-page .primary-content .vision-mission-panel .vision-section .vam-panel .vam-panel-text p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .About-page .primary-content .vision-mission-panel .vision-section .vam-panel h2 {
+    font-weight: 600;
+  }
+  
+  .About-page .primary-content .core-values {
+    margin-top: 40px;
+  }
+  
+  .About-page .primary-content .core-values .core-values-heading {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .About-page .primary-content .core-values .core-values-heading h2 {
+    font-weight: 600;
+  }
+  
+  .About-page .primary-content .core-values .core-values-content {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .About-page .primary-content .core-values .core-values-content ol {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .About-page .primary-content .core-values .core-values-content ol li p {
+    text-align: start;
+    font-size: 18px;
+  }
+  
+  .About-page .primary-content .core-values .core-values-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .About-page .primary-content .core-values .core-values-text p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .About-page .primary-content .major-milestones-panel {
+    margin-top: 80px;
+  }
+  
+  .About-page .primary-content .major-milestones-panel .major-milestones-heading h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .About-page .primary-content .major-milestones-panel ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .About-page .primary-content .major-milestones-panel ul li {
+    font-size: 18px;
+    list-style: square;
+  }
+  
+  .About-page .primary-content .beyond-projects {
+    margin-top: 40px;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-heading {
+    margin-bottom: 20px;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-heading h2 {
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-content p {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-list {
+    margin-top: 30px;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-list .beyond-projects-list-heading {
+    margin-bottom: 20px;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-list .beyond-projects-list-heading h2 {
+    text-align: center;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-list .beyond-projects-list-content ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-list .beyond-projects-list-content ul li {
+    list-style: square;
+  }
+  
+  .About-page .primary-content .beyond-projects .beyond-projects-panel .beyond-projects-list .beyond-projects-list-content ul li p {
+    font-size: 18px;
+  }
+  
+  .About-page .primary-content .team-section {
+    margin-top: 80px;
+  }
+  
+  .About-page .primary-content .team-section .heading {
+    height: auto;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .About-page .primary-content .team-section .heading h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box {
+    height: 350px;
+    width: 75%;
+    background-color: #f1f2f6;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .About-page .primary-content .team-section .team-image-box img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-caption {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-caption .layer {
+    position: absolute;
+    opacity: .4;
+    background-color: #4cd137;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-caption .layer-heading {
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-icons {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #57606f;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-icons .icon {
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-icons .icon:hover {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-icons .icon:nth-child(1):hover {
+    color: #4cd137;
+    border-color: #4cd137;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-icons .icon:nth-child(2):hover {
+    color: tomato;
+    border-color: tomato;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box .img-icons .icon:nth-child(3):hover {
+    color: royalblue;
+    border-color: royalblue;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box:hover {
+    -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .About-page .primary-content .team-section .team-image-box:hover .img-caption {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  
+  .About-page .primary-content .team-section .team-image-box:hover .img-icons {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  
+  .About-page .primary-content .info-section {
+    height: 100px;
+    width: 100%;
+  }
+  
+  .About-page .bottom-background {
+    background-image: url("images/ivan-bandura-UIcxKsUwNjo-unsplash.jpg");
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  /*# sourceMappingURL=style.css.map */
